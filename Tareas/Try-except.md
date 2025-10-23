@@ -80,7 +80,7 @@ try:
     lista = [1, 2, 3]
     print(lista[5])
 except Excpection as e:
-    print("Ocurrió un error: ", e)
+    print(f"Ocurrió un error tipo: {e}")
 ```
 
 **Exception** captura *cualquier error*, y **e** muestra el mensaje del error exacto.
